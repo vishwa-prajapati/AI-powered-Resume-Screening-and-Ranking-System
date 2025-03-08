@@ -24,18 +24,18 @@ File Processing: pdfplumber<br>
 bash>Copy>Edit <br>
 ```bash
 git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git
-cd AI-powered-Resume-Screening```
+cd AI-powered-Resume-Screening
 
 2️⃣ Install Dependencies<br>
 bash>Copy>Edit 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 3️⃣ Run the Application<br>
 bash>Copy>Edit <br>
 ```bash
 streamlit run app.py
-Now, open http://localhost:8501/ in your browser to use the application.```
+Now, open http://localhost:8501/ in your browser to use the application.
 
 📂 Project Structure<br>
 bash>Copy>Edit
