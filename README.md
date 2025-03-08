@@ -11,39 +11,39 @@ An intelligent AI-based Resume Screening and Ranking System that automatically e
 ✅ Download Best Matches – Allows recruiters to download top-ranked resumes easily.<br>
 
 
-⚙️ Tech Stack
-Frontend: Streamlit
-Backend: Python, Flask
-Database: SQLite
-Machine Learning: Scikit-learn (TF-IDF, Cosine Similarity)
-File Processing: pdfplumber
+⚙️ Tech Stack<br>
+Frontend: Streamlit<br>
+Backend: Python <br>
+Database: SQLite <br>
+Machine Learning: Scikit-learn (TF-IDF, Cosine Similarity)<br>
+File Processing: pdfplumber<br>
 
 
-🚀 Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git
-cd AI-powered-Resume-Screening
+🚀 Installation & Setup<br>
+1️⃣ Clone the Repository<br>
+bash<br>
+Copy<br>
+Edit<br>
+git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git<br>
+cd AI-powered-Resume-Screening<br>
 
-2️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
+2️⃣ Install Dependencies<br>
+bash<br>
+Copy<br>
+Edit<br>
+pip install -r requirements.txt<br>
 
-3️⃣ Run the Application
-bash
-Copy
-Edit
-streamlit run app.py
-Now, open http://localhost:8501/ in your browser to use the application.
+3️⃣ Run the Application<br>
+bash<br>
+Copy<br>
+Edit<br>
+streamlit run app.py<br>
+Now, open http://localhost:8501/ in your browser to use the application.<br>
 
-📂 Project Structure
-bash
-Copy
-Edit
+📂 Project Structure<br>
+bash<br>
+Copy<br>
+Edit<br>
 AI-powered-Resume-Screening/
 │── Resume Dataset/         # Uploaded resume files
 │── src/                    # Source code
