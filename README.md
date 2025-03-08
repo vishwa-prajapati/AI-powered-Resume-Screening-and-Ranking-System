@@ -22,17 +22,17 @@ File Processing: pdfplumber<br>
 🚀 Installation & Setup<br>
 1️⃣ Clone the Repository<br>
 bash>Copy>Edit <br>
-```git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git<br>
-cd AI-powered-Resume-Screening<br>```
+```git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git
+cd AI-powered-Resume-Screening```
 
 2️⃣ Install Dependencies<br>
-bash>Copy>Edit <br>
-```pip install -r requirements.txt<br>```
+bash>Copy>Edit 
+```pip install -r requirements.txt```
 
 3️⃣ Run the Application<br>
 bash>Copy>Edit <br>
-```streamlit run app.py<br>
-Now, open http://localhost:8501/ in your browser to use the application.<br>```
+```streamlit run app.py
+Now, open http://localhost:8501/ in your browser to use the application.```
 
 📂 Project Structure<br>
 bash>Copy>Edit
