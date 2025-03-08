@@ -35,9 +35,7 @@ streamlit run app.py<br>
 Now, open http://localhost:8501/ in your browser to use the application.<br>
 
 📂 Project Structure<br>
-bash<br>
-Copy<br>
-Edit<br>
+bash>Copy>Edit
 AI-powered-Resume-Screening/
 │── Resume Dataset/         # Uploaded resume files <br>
 │── src/                    # Source code <br>
