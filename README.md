@@ -21,22 +21,16 @@ File Processing: pdfplumber<br>
 
 🚀 Installation & Setup<br>
 1️⃣ Clone the Repository<br>
-bash<br>
-Copy<br>
-Edit<br>
+bash>Copy>Edit <br>
 git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git<br>
 cd AI-powered-Resume-Screening<br>
 
 2️⃣ Install Dependencies<br>
-bash<br>
-Copy<br>
-Edit<br>
+bash>Copy>Edit <br>
 pip install -r requirements.txt<br>
 
 3️⃣ Run the Application<br>
-bash<br>
-Copy<br>
-Edit<br>
+bash>Copy>Edit <br>
 streamlit run app.py<br>
 Now, open http://localhost:8501/ in your browser to use the application.<br>
 
@@ -45,9 +39,9 @@ bash<br>
 Copy<br>
 Edit<br>
 AI-powered-Resume-Screening/
-│── Resume Dataset/         # Uploaded resume files
-│── src/                    # Source code
-│── app.py                  # Streamlit app
-│── requirements.txt         # Dependencies
-│── README.md               # Project documentation
-│── LICENSE                 # Open-source license
+│── Resume Dataset/         # Uploaded resume files <br>
+│── src/                    # Source code <br>
+│── app.py                  # Streamlit app <br>
+│── requirements.txt         # Dependencies <br>
+│── README.md               # Project documentation <br>
+│── LICENSE                 # Open-source license <br>
