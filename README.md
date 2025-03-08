@@ -1,14 +1,14 @@
 # AI-powered-Resume-Screening-and-Ranking-System
 An intelligent AI-based Resume Screening and Ranking System that automatically evaluates resumes against job descriptions, helping recruiters quickly identify top candidates.
-
+<br>
 
 📌 Features
-✅ AI-driven Resume Ranking – Uses TF-IDF & Cosine Similarity to rank resumes based on job descriptions.
-✅ PDF Resume Parsing – Extracts text from resumes using pdfplumber.
-✅ Database Storage – Stores and retrieves resumes using SQLite.
-✅ Resume Upload & Management – Supports multiple resume uploads and stores them in a structured dataset.
-✅ User-Friendly Web Interface – Built using Streamlit for an interactive experience.
-✅ Download Best Matches – Allows recruiters to download top-ranked resumes easily.
+✅ AI-driven Resume Ranking – Uses TF-IDF & Cosine Similarity to rank resumes based on job descriptions.<br>
+✅ PDF Resume Parsing – Extracts text from resumes using pdfplumber.<br>
+✅ Database Storage – Stores and retrieves resumes using SQLite.<br>
+✅ Resume Upload & Management – Supports multiple resume uploads and stores them in a structured dataset.<br>
+✅ User-Friendly Web Interface – Built using Streamlit for an interactive experience.<br>
+✅ Download Best Matches – Allows recruiters to download top-ranked resumes easily.<br>
 
 
 ⚙️ Tech Stack
