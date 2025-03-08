@@ -22,7 +22,7 @@ File Processing: pdfplumber<br>
 🚀 Installation & Setup<br>
 1️⃣ Clone the Repository<br>
 bash>Copy>Edit <br>
-git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git<br>
+```git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git<br>
 cd AI-powered-Resume-Screening<br>
 
 2️⃣ Install Dependencies<br>
