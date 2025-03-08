@@ -22,8 +22,8 @@ File Processing: pdfplumber<br>
 🚀 Installation & Setup<br>
 1️⃣ Clone the Repository<br>
 bash>Copy>Edit <br>
-git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git
-cd AI-powered-Resume-Screening
+```bash git clone https://github.com/vishwa-prajapati/AI-powered-Resume-Screening.git
+cd AI-powered-Resume-Screening ```md
 
 2️⃣ Install Dependencies<br>
 bash>Copy>Edit 
@@ -45,3 +45,14 @@ AI-powered-Resume-Screening/
 │── requirements.txt         # Dependencies <br>
 │── README.md               # Project documentation <br>
 │── LICENSE                 # Open-source license <br>
+
+
+## 🤝 Contributing  
+Encourage others to contribute to your project.
+We welcome contributions! 🚀  
+
+1. Fork the repository  
+2. Create a new branch (`feature-branch`)  
+3. Commit your changes (`git commit -m "Add feature"`)  
+4. Push to your branch (`git push origin feature-branch`)  
+5. Open a **Pull Request**
