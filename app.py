@@ -75,6 +75,24 @@ def get_all_resumes():
         resumes[name] = (text, file_path)
     return resumes
 
+def clean_database():
+    """Removes database entries for missing files."""
+    c.execute("SELECT id, name, file_path FROM resumes")
+    resumes = c.fetchall()
+    
+    deleted_count = 0
+    for resume_id, name, file_path in resumes:
+        if not os.path.exists(file_path):  # If file does not exist
+            c.execute("DELETE FROM resumes WHERE id = ?", (resume_id,))
+            conn.commit()
+            deleted_count += 1
+
+    if deleted_count > 0:
+        st.success(f"🗑 Removed {deleted_count} missing resumes from database!")
+    else:
+        st.info("✅ All records are valid, no missing files found.")
+
+
 # ✅ Streamlit UI
 def main():
     st.title("🚀 AI Resume Matcher with Database & Resume Dataset")
@@ -165,6 +183,9 @@ def main():
                     st.write(f"✅ {uploaded_resume_names[i]}: *{score:.2f}% match*")
         else:
             st.warning("⚠ No resumes found!")
+            
+if st.button("🗑 Clean Missing Resumes from Database"):
+        clean_database()
 
 if __name__ == "__main__":
     main()
